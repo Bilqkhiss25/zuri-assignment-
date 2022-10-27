@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    background-color:powderblue;
+}
+.nav-bars{
+    background-color: burlywood;
+}
+.nav-links{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.nav-links ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.nav-links ul li{
+    float: left;
+}
+.nav-links ul li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    position: relative;
+}
+.nav-links ul li a:hover{
+    background-color: white;
+}
+.about-head h1{
+    text-align: center;
+    margin: 1rem;
+    font-size:3rem;
+    background-color: cadetblue;
+}
+.name{
+    margin-top: 2rem;
+}
+.name p{
+    font-weight: bolder;
+    text-align: center;
+    margin: 3rem;
+    font-size: large;
+}
+.name h2{
+    font-size: 2rem;
+    text-align: center;
+}
+.about-container> .about-content #pic{
+    float: left;
+    margin: 23px 40px 20px  0;
+    background-color: darkcyan;
+}
+.about-container> .about-content p{
+    letter-spacing: 1px;
+    line-height: 30px;
+    padding: 1.2rem;
+    margin-top: 5rem;
+}
